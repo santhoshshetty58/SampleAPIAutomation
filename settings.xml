@@ -5,7 +5,7 @@
   </con:settings>
   <con:vcsConfiguration>
     <con:vcsName>Git</con:vcsName>
-    <con:repositoryIdentifier>https://github.com/santhoshshetty58/SampleAPIAutomation.git</con:repositoryIdentifier>
+    <con:repositoryIdentifier>https://github.com/santhoshshetty58/SampleAPIAutomation</con:repositoryIdentifier>
   </con:vcsConfiguration>
   <con:savedRecentRuns>1</con:savedRecentRuns>
   <con:properties/>
