@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/country/get/iso2code/{alpha2_code}" path="/country/get/iso2code/{alpha2_code}" id="b26b7a8c-749b-45c1-9fe8-49450e6d606c" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/country/get/iso2code/{alpha2_code}" path="/country/get/iso2code/{alpha2_code}" id="b26b7a8c-749b-45c1-9fe8-49450e6d606c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="b26b7a8c-749b-45c1-9fe8-49450e6d606cfileName">%2Fcountry%2Fget%2Fiso2code%2F%7Balpha2_code%7D</con:setting>
   </con:settings>
@@ -23,6 +23,10 @@
     <con:request name="GET Request" id="63cb7955-cbc0-4fd7-9356-0489d7d18f0d" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://services.groupkt.com</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>
