@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="e4a68079-13b2-41d1-8f65-3e3dc44e8304" created="2.4.0" activeEnvironment="Default environment" name="SampleTestProject" resourceRoot="" compositeProjectFormat="1.3" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="e4a68079-13b2-41d1-8f65-3e3dc44e8304" created="2.4.0" activeEnvironment="Default environment" name="SampleTestProject" resourceRoot="${projectDir}" compositeProjectFormat="1.3" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="e4a68079-13b2-41d1-8f65-3e3dc44e8304fileName">SampleTestProject</con:setting>
+    <con:setting id="ProjectSettings@shadowPassword"/>
   </con:settings>
   <con:vcsConfiguration>
     <con:vcsName>Git</con:vcsName>
