@@ -7,7 +7,7 @@
   <con:testStep type="delay" name="Delay" id="ab74cf29-ba80-4c18-98ae-414c03aff448">
     <con:settings/>
     <con:config>
-      <delay>3000</delay>
+      <delay>4000</delay>
     </con:config>
   </con:testStep>
   <con:properties/>
