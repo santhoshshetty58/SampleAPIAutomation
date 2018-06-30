@@ -43,6 +43,9 @@
 // pw.close()
 // fos.close()</con:script>
   </con:eventHandlers>
+  <con:eventHandlers type="TestSuiteRunListener.beforeTestCase" name="TestSuiteRunListener.beforeTestCase">
+    <con:script/>
+  </con:eventHandlers>
   <con:authRepository/>
   <con:tags/>
 </con:soapui-project>
