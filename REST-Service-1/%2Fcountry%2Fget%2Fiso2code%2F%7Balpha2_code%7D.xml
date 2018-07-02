@@ -23,11 +23,16 @@
     <con:request name="GET Request" id="63cb7955-cbc0-4fd7-9356-0489d7d18f0d" mediaType="application/json">
       <con:settings/>
       <con:endpoint>http://services.groupkt.com</con:endpoint>
+      <con:request/>
       <con:credentials>
         <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
         <con:authType>No Authorization</con:authType>
       </con:credentials>
+      <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
       <con:parameters/>
+      <con:parameterOrder>
+        <con:entry>alpha2_code</con:entry>
+      </con:parameterOrder>
     </con:request>
   </con:method>
 </con:resource>

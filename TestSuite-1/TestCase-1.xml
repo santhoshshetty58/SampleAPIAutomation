@@ -10,6 +10,30 @@
       <delay>3000</delay>
     </con:config>
   </con:testStep>
+  <con:testStep type="restrequest" name="TestRequest" id="73e9a320-dfcf-4b57-bbb0-53a27b7155d1">
+    <con:settings/>
+    <con:config service="REST Service 1" resourcePath="/country/get/iso2code/{alpha2_code}" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="TestRequest" id="63cb7955-cbc0-4fd7-9356-0489d7d18f0d" mediaType="application/json">
+        <con:settings>
+          <con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting>
+        </con:settings>
+        <con:endpoint>http://services.groupkt.com</con:endpoint>
+        <con:request/>
+        <con:originalUri>http://services.groupkt.com/country/get/iso2code/US</con:originalUri>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters>
+          <entry key="alpha2_code" value="US" xmlns="http://eviware.com/soapui/config"/>
+        </con:parameters>
+        <con:parameterOrder>
+          <con:entry>alpha2_code</con:entry>
+        </con:parameterOrder>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
